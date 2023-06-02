@@ -46,7 +46,7 @@ const Header = () => {
 				<ul className='flex flex-col items-center space-y-10 text-neutral-200 lg:text-white lg:flex-row lg:space-y-0 lg:space-x-12'>
 					{utils.LINKS.map((link) => {
 						return (
-							<li>
+							<li key={link.name}>
 								<a
 									href={link.url}
 									onClick={closeMenu}

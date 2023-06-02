@@ -13,7 +13,7 @@ const Footer = () => {
 			<ul className='flex flex-row space-x-14 mb-20'>
 				{utils.LINKS.map((link) => {
 					return (
-						<li>
+						<li key={link.name}>
 							<a
 								href={link.url}
 								className='text-footer hover:text-white transition ease-out duration-500'
@@ -28,7 +28,7 @@ const Footer = () => {
 			<section className='flex flex-row space-x-8'>
 				{utils.SOCIAL_MEDIA_LINKS.map((link) => {
 					return (
-						<a href={link.url}>
+						<a key={link.name} href={link.url}>
 							<SocialMediaIcon fill='#2C7566' name={link.name} />
 						</a>
 					)
