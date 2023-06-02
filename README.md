@@ -36,7 +36,7 @@
 ## Preview
 
 <div align='center'>
-  <img src='./design/screenshot.png' alt='News Homepage preview image'>
+  <img src='./design/screenshot.png' alt='Sunnyside Agency Landing Page preview image'>
 </div>
 
 <h2>The Challenge</h2>
