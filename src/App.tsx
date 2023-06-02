@@ -1,9 +1,7 @@
+import HomePage from 'pages/HomePage'
+
 function App() {
-	return (
-		<div>
-			<p>sunnyside agency landing page</p>
-		</div>
-	)
+	return <HomePage />
 }
 
 export default App
